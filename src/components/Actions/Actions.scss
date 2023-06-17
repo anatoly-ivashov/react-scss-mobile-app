@@ -1,0 +1,16 @@
+.Actions {
+  display: grid;
+  grid-template-columns: 1.8fr 1.2fr;
+  gap: 15px;
+
+  .action {
+    cursor: pointer;
+  }
+
+  i {
+    font-size: 22px;
+  }
+  span {
+    font-size: 11px;
+  }
+}
